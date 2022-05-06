@@ -278,7 +278,7 @@ def calc_mse(input_video_path):
     """
     
     Sanity check for stabilization quality.  
-    Output video should have much MSE than input.
+    Output video should have lower MSE than input.
 
     """
     input_cap, video_info = utils.get_video_parameters(input_video_path)
